@@ -1,0 +1,72 @@
+body {
+    width: 100vw;
+    height: 100vh; /* Adjusted to cover the viewport */
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2UlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 3, 20, 0.5); /* Semi-transparent overlay */
+    
+}
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20vh;
+}
+
+.second-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.info {
+    margin-right: 2vw;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    /* For small screens: */
+    .text{
+        font-size: 30px;
+    } 
+    
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /* For tablets: */
+    .info{
+        font-size: 35px;
+    }
+    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+    /* For tablets: */
+    .info{
+        font-size: 28px;
+    }
+    #day,#hr,#min,#sec{
+        font-size: 28px;
+    }
+    
+    
+}
+

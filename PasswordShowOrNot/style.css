@@ -1,0 +1,23 @@
+.main-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-type{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+    
+}
+.type{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    margin-left:2vw;
+}

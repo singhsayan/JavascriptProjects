@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.main-container{
+    width:100vw;
+    height:100vh;
+    background-color: #1E1144;
+    
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 30vh;
+    height: 30vh;
+    display: block;
+    text-align: center;
+    
+}
+.first-box{
+    width:30vw;
+    
+    margin-top: 5vh;
+    margin-bottom:2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hours,.minutes,.seconds{
+    width:8vw;
+    height: 9vh;
+    margin-right: 1vw;
+    color:#E72488;
+    background-color:#418DF9 ;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    /* For small screens: */
+
+    .first-box{
+        width: 40vw;
+    }
+
+    .hours,.minutes,.seconds {
+        margin-right: 3vw;
+        height: 12vh;
+        width: 60vw;
+    } 
+    
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /* For tablets: */
+    .first-box{
+        width: 40vw;
+    }
+
+    .hours,.minutes,.seconds {
+        margin-right: 3vw;
+        height: 10vh;
+        width: 40vw;
+    } 
+    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+    /* For tablets: */
+    .first-box{
+        width: 40vw;
+    }
+
+    .hours,.minutes,.seconds {
+        margin-right: 3vw;
+        height: 10vh;
+        width: 40vw;
+    } 
+    
+    
+    
+}

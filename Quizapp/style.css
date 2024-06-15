@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #001E4D;
+}
+.main-container{
+    width: 50vw;
+    
+    margin-top: 10vh;
+    margin: auto;
+    min-height: 50vh;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+.head{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-bottom:solid black ;
+}
+.question{
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.options{
+    margin: 0 auto;
+    display: block;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    
+}
+.one{
+    height: 5vh;
+    width:7vw;
+    border-radius: 2px;
+    border: 2px solid black;
+    outline: black;
+    background-color: white;
+    
+    margin:5px;
+}
+.two{
+    height: 5vh;
+    width:7vw;
+    border-radius: 2px;
+    border: 2px solid black;
+    outline: black;
+    background-color: white;
+    
+    margin:5px;
+}
+.three{
+    height: 5vh;
+    width:7vw;
+    border-radius: 2px;
+    border: 2px solid black;
+    outline: black;
+    background-color: white;
+   
+    margin:5px;
+}
+.four{
+    height: 5vh;
+    width:7vw;
+    border-radius: 2px;
+    border: 2px solid black;
+    outline: black;
+    background-color: white;
+    
+    margin:5px;
+}
+.btn1{
+    margin: 0 auto;
+    margin-left:20vw;
+    margin-top:20vh;
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: #001E4D;
+    color:white;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    /* For small screens: */
+    .main-container {
+        margin-top: 8vh;
+        width: 90vw;
+    } 
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .question{
+        font-size: 10px;
+    }
+    .one,.two,.three,.four{
+        margin-bottom: 3vh;
+        height: 5rem;
+        width: 50vw;
+    }
+    .options{
+        
+        width: 50vw; 
+    }
+    .btn{
+       margin-bottom: 6vh;
+        margin-left: 15vw;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /* For tablets: */
+    .main-container {
+        margin-top: 8vh;
+        width: 90vw;
+    } 
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .question{
+        font-size: 10px;
+    }
+    .one,.two,.three,.four{
+        
+        height: 20vh;
+        width: 50vw;
+    }
+    .options{
+        
+        width: 80vw; 
+    }
+    .btn{
+       margin-bottom: 6vh;
+        margin-left: 15vw;
+    }
+    
+    
+}

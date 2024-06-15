@@ -1,0 +1,120 @@
+*{
+    /* margin: 0; */
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.main-container{
+
+    background-color: #552EBD;
+    height: 70vh;
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    color:#FEFF76;
+}
+.container2{
+    width: 40vw;
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10vh;
+    margin-left: 32%;
+    background-color: #817FE4;
+}
+.button{
+   
+    top:6vh;
+}  
+
+.dob{
+    margin-right: 5vw;
+}
+.calculate{
+    width:8vw;
+    height:6vh;
+    margin-right: 2vw;
+    left:8vw;
+}
+
+.text1{
+    margin-left: 36vw;
+    
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    /* For small screens: */
+    .main-container{
+        width: 100vw;
+        
+    }
+
+    .container2{
+        margin-left: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .calculate{
+        width: 20vw;
+        height: 3vh;
+    }
+
+    .text{
+        margin-left: 4vw;
+        margin-top: 3vh;
+    }
+    .text1{
+        margin-left: 4vw;
+        
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    /* For tablets: */
+    .main-container{
+        width: 100vw;
+        
+    }
+
+    .container2{
+        margin-left: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+    }
+
+    .calculate{
+        width: 20vw;
+        height: 3vh;
+    }
+
+    .text{
+        margin-left: 7vw;
+        margin-top: 3vh;
+    }
+    .text1{
+        margin-left: 15vw;
+        
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+}

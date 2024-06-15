@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading">
+            <h1 class="pass">Password Generator</h1>
+        </div>
+        <div class="password-box">
+            <input placeholder = "Write here..." type ="text" class="search-input">
+            <h3 class="copy">click to copy</h3>
+        </div>
+        <div class="lengthContainer">
+            <input class = "range" type= "range">
+        </div>
+        <div class="options">
+            <div class="uppercase">
+                <label class="switch">Include Uppercase
+                    <input class = "switch1" type="checkbox">
+                    <span class="slider-round"></span>
+                </label>
+            </div>
+            <div class="lowercase">
+                <label class="switch">Include Lowercase
+                    <input class = "switch2" type="checkbox">
+                    <span class="slider-round"></span>
+                </label>
+            </div>
+            <div class="numbers">
+                <label class="switch">Include Numbers
+                    <input class = "switch3" type="checkbox">
+                    <span class="slider-round"></span>
+                </label>
+            </div>
+            <div class="symbols">
+                <label class="switch">Include Symbols
+                    <input class = "switch4" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <div class="button">
+            <button class ="btn"> GENERATE PASSWORD</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

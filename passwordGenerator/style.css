@@ -1,0 +1,196 @@
+*{
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+.main-container{
+    background-color: #0A0E30;
+    margin: auto;
+    height:100vh;
+    width:45vw;
+    border-radius: 5px;
+}
+.heading{
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #0A0E30;
+    color:#EEEDF0;
+}
+.pass{
+    margin-top: 5vh;
+}
+.password-box{
+    text-align: center;
+    
+}
+.search-input{
+    font-size: 5vh;
+    border: 0;
+    outline: 0;
+    background-color:#1C2040 ;
+    color:white;
+    border-radius: 7px;
+}
+.lengthContainer{
+    margin-left: 27%;
+    height:10vh;
+    width:25vw;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: #1C2040;
+    border-radius: 12px;
+}
+.copy{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.range{
+    background-color: #1C2040;
+    padding: 5vh;
+}
+.options{
+    margin-top: 5vh;
+    margin-left: 32%;
+    background-color: #0A0E30;
+    color: #E2D4CF;
+    
+}
+.switch{
+    text-align: center;
+    margin-top: 2vh;
+    
+}
+.uppercase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.05vw;
+    height:8vh;
+    width:18vw;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: #1C2040;
+    border-radius: 12px;
+    text-align: center;
+}
+.lowercase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.05vw;
+    height:7vh;
+    width:18vw;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: #1C2040;
+    border-radius: 12px;
+    text-align: center;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.05vw;
+    height:7vh;
+    width:18vw;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: #1C2040;
+    border-radius: 12px;
+    text-align: center;
+}
+.symbols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.05vw;
+    height:7vh;
+    width:18vw;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: #1C2040;
+    border-radius: 12px;
+    text-align: center;
+}
+.button{
+    
+    margin-top: 5vh;
+    margin-left: 25%;
+    
+    
+}
+.btn{
+    height:10vh;
+    width:27vw;
+    background-color: #4F9DFF;
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 599px) {
+    /* For small screens: */
+    .main-container{
+        width: 110vw;
+    }
+    .lengthContainer{
+        width: 70vw;
+    }
+    .uppercase,.lowercase,.numbers,.symbols{
+        width: 50vw;
+    }
+    .btn{
+        
+        width: 40vw;
+    }
+    .button{
+        margin-left: 36vw;
+    }
+    .search-input{
+        width: 80vw;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /* For tablets: */
+    .main-container{
+        height: 100%;
+        width: 110vw;
+    }
+    .lengthContainer{
+        width: 70vw;
+    }
+    .uppercase,.lowercase,.numbers,.symbols{
+        width: 50vw;
+    }
+    .btn{
+        
+        width: 40vw;
+        height: 6vh;
+    }
+    .button{
+        margin-left: 36vw;
+    }
+    .search-input{
+        width: 80vw;
+    }
+    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+    /* For tablets: */
+    
+   .main-container{
+    width: 60vw;
+    height: 110vh;
+   }
+   
+    .search-input{
+        width: 45vw;
+    }
+    
+    
+}

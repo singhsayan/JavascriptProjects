@@ -5,3 +5,5 @@ Interactive Feedback: As users select answers, the app provides immediate visual
 Responsive Design: The app is designed with responsiveness in mind, ensuring an optimal user experience across different devices and screen sizes, from mobile phones to desktops.
 
 User-Friendly Interface: The intuitive interface makes it easy for users to navigate through questions and answers, creating a seamless and enjoyable quiz experience.
+
+![Quiz App](https://github.com/singhsayan/JavascriptProjects/blob/main/Quizapp/IMG_9478.png)
